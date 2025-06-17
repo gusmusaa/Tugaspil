@@ -51,7 +51,7 @@
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Update Data</h3>
     
     <div class="w3-row">
-      <form class="w3-container w3-col w3-card-4 w3-light-grey m3" action="ubahbiodata.php" method="post" enctype="multipart/form-data">
+      <form class="w3-container w3-col w3-card-4 w3-light-grey m3" action="ubahbiodata.php" method="POST" enctype="multipart/form-data">
       <p>Lakukan Tambah Biodata pada Form ini.</p>
       <input name="id" type="hidden" value="<?php echo $row['id'];?>"> 
       <p><label>Nama</label>
